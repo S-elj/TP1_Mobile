@@ -1,6 +1,7 @@
 package fr.umontpellier.tp1
 
 import android.app.AlertDialog
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -35,6 +36,14 @@ class MainActivity : AppCompatActivity() {
                 editTextNom.setBackgroundColor(Color.GREEN)
                 editTextPrenom.setBackgroundColor(Color.GREEN)
                 editTextDate.setBackgroundColor(Color.GREEN)
+
+
+                val intent = Intent(this, SecondActivity::class.java).apply {
+                    putExtra("nom", editTextNom.text.toString())
+                    putExtra("prenom", editTextPrenom.text.toString())
+                    putExtra("date", editTextDate.text.toString())
+                }
+                startActivity(intent)
             }
 
             builder.setNegativeButton("Annuler") { dialog, which ->
