@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tp1</string>
+    <string name="nom">Nom</string>
+    <string name="date">Date</string>
+    <string name="prenom">Prénom</string>
+    <string name="role">Rôle</string>
+    <string name="confirm_buton">Confirmer</string>
+    <string-array name="roles">
+        <item>Director</item>
+        <item>Developeur</item>
+    </string-array>
+</resources>

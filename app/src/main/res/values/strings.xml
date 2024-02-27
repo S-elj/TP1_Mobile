@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">tp1</string>
+    <string name="nom">Last name</string>
+    <string name="date">Date</string>
+    <string name="role">Role</string>
+    <string name="prenom">First name</string>
+    <string name="confirm_buton">Confirm</string>
+    <string-array name="roles">
+        <item>Director</item>
+        <item>Developeur</item>
+    </string-array>
+</resources>
