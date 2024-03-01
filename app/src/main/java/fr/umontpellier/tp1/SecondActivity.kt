@@ -25,7 +25,10 @@ class SecondActivity : AppCompatActivity() {
 
         // Gestionnaire de clics pour le bouton OK
         findViewById<Button>(R.id.buttonOk).setOnClickListener {
-            startActivity(Intent(this, ThirdActivity::class.java))
+            val intent = Intent(this, ThirdActivity::class.java)
+            intent.putExtra("numTel", num)
+            startActivity(intent)
+
         }
 
         // Gestionnaire de clics pour le bouton Retour

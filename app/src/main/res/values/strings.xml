@@ -5,6 +5,8 @@
     <string name="role">Role</string>
     <string name="prenom">First name</string>
     <string name="confirm_buton">Confirm</string>
+    <string name="call">call this number</string>
+
     <string-array name="domaines_activite">
         <item>Food Industry</item>
         <item>Banking / Insurance</item>

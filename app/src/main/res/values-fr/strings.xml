@@ -6,7 +6,7 @@
     <string name="prenom">Prénom</string>
     <string name="role">Rôle</string>
     <string name="confirm_buton">Confirmer</string>
-    
+    <string name="call">appeler ce numero</string>
     <string-array name="domaines_activite">
         <item>Agroalimentaire</item>
         <item>Banque / Assurance</item>
