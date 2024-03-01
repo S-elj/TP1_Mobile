@@ -1,12 +1,22 @@
 <resources>
     <string name="app_name">tp1</string>
     <string name="nom">Last name</string>
-    <string name="date">Date</string>
+    <string name="telephone_hint">Tel number</string>
     <string name="role">Role</string>
     <string name="prenom">First name</string>
     <string name="confirm_buton">Confirm</string>
-    <string-array name="roles">
-        <item>Director</item>
-        <item>Developeur</item>
+    <string-array name="domaines_activite">
+        <item>Food Industry</item>
+        <item>Banking / Insurance</item>
+        <item>Wood / Paper / Cardboard / Printing</item>
+        <item>Construction / Building Materials</item>
+        <item>Chemistry / Para-chemistry</item>
+        <item>Trade / Wholesale / Distribution</item>
+        <item>Publishing / Communication / Multimedia</item>
+        <item>Electronics / Electricity</item>
+        <item>Consulting and Studies</item>
+        <item>Pharmaceutical Industry</item>
+        <item>IT / Telecommunications</item>
     </string-array>
+
 </resources>

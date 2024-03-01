@@ -27,21 +27,33 @@
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="101dp"
             app:layout_constraintHorizontal_bias="0.494" android:id="@+id/prenom" android:hint="@string/prenom"/>
+
     <EditText
             android:layout_width="377dp"
             android:layout_height="75dp"
-            android:inputType="datetime|date"
+            android:inputType="phone"
             android:ems="10"
+            android:id="@+id/telephone"
+            android:hint="@string/telephone_hint"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="372dp" android:layout_marginEnd="101dp"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="372dp"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="101dp"
-            app:layout_constraintHorizontal_bias="0.494" android:id="@+id/date" android:hint="@string/date"/>
-    <AutoCompleteTextView
+            android:layout_marginEnd="101dp"/>
+
+    <Spinner
+            android:id="@+id/domaine_activite_spinner"
             android:layout_width="376dp"
-            android:layout_height="63dp" android:id="@+id/role"
-            android:text="@string/role" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="468dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="18dp"/>
+            android:layout_height="63dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="468dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="101dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="101dp"/>
+
     <Button
             android:text="@string/confirm_buton"
             android:layout_width="wrap_content"
